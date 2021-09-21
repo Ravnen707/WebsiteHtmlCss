@@ -1,0 +1,10 @@
+button.btnpage2{
+ position: absolute;
+ left: 0px;
+ bottom: 500px;
+}
+button.btnpage3{
+    position: absolute;
+    right: 0px;
+    bottom: 500px;
+}
