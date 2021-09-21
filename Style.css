@@ -1,33 +1,102 @@
-body{
+body.page1{
     background-color: whitesmoke;
 }
-h1.start {
+h1.header1 {
     text-align:center;
     color: red;
     border-style: outset;
 }
-h1.second{
+h1.header11{
     text-align: center;
     color: greenyellow;
 }
-p.text{
+p.p1{
     text-align: center;
     color: brown;
     font-size: 200%
 }
-img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-button{
+button.btnpage11{
     
     position: absolute;
     right: 0px;
     bottom: 500px;
 }
-p.testtest{
+p.p11{
     font-size: 400%;
     text-align: center;
     border-style: dotted;
 }
+
+
+
+button.btnmain{
+    position: absolute;
+    left: 0px;
+    bottom: 300px;
+   }
+   button.btnpage23{
+       position: absolute;
+       right: 0px;
+       bottom: 300px;
+   }
+   #formatBlock{
+    position: absolute;
+    left: 1010px;
+    bottom: 65%;
+   
+       border-style: solid;
+       border-width: thick;
+       border-color: gray; 
+       width: 45%;
+       float: left;
+   }
+   #formatBlocktest{
+    position: absolute;
+    left: 40px;
+    bottom: 65%;
+   
+       border-style: solid;
+       border-width: thick;
+       border-color: gray; 
+       width: 45%;
+       float: left;
+   }
+#lastcol{
+    margin-bottom: 2.5%;
+}
+
+
+
+   button.btnpage32{
+    position: absolute;
+       left: 0px;
+       bottom: 500px;
+   }
+   button.btnpage34{
+       position: absolute;
+       right: 0px;
+       bottom: 500px;
+   }
+   #formatBlock3{
+       position: absolute;
+       left: 375px;
+       bottom: 65%;
+   
+       border-style: solid;
+       border-width: thick;
+       border-color: gray; 
+       width: 60%;
+       float: left;
+   }
+
+
+
+   button.btnpage43{
+    position: absolute;
+       left: 0px;
+       bottom: 500px;
+   }
+
+
+
+
