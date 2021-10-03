@@ -279,3 +279,17 @@ table {
   }
 
 
+
+  /* Snake Game HTML CSS */ 
+
+  h1.header6 {
+    text-align:center;
+    color: black;
+    border-style: outset;   
+ }
+  .canvasGame {
+    position:relative;
+    left: 40%;
+    top: 25%;
+  }
+  
