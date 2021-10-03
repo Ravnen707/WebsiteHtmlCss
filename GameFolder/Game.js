@@ -5,15 +5,15 @@
     
     
     window.onload=function() {
-        canv=document.getElementById("go"); //Converses with the id of the canvas so the game is made inside its borders.
+        canv=document.getElementById("move"); //Converses with the id of the canvas so the game is made inside its borders.
         ctx=canv.getContext("2d") // Makes the game seen in 2d. Anything else not possible in a browser with this game atm. 
         document.addEventListener("keydown",keyPush); // need to make is possible to moves by keypush "Arrows"
         setInterval(game,1000/15); // Start up time of game as in speed of the game "10/15 = Snake goes BRRRRRRR"
     }
-        px=py=10; // If removed games gone.
-        gs=tc=20; // If removed games gone.
-        ax=ay=15; // If removed red dot gone.
-        xv=yv=0; // If removed games gone.
+        px=py=10; // Start position of the snake
+        gs=tc=20; // Size of "invisible" borders which at "20" is alined with the border of width and height.
+        ax=ay=15; // Start position of the dot
+        xv=yv=0; // If removed games gone. Interesting results if number is changed from 0.
         trail=[]; // If removed red dot and Snake gone.
         tail = 5; // Unsure of purpose if removed.!!!!!!!
 
@@ -32,7 +32,7 @@
        if(py>tc-0) {
          py= -1;
        } 
-        ctx.fillStyle="black"; //Background color for the "Game".
+        ctx.fillStyle="blue"; //Background color for the "Game".
         ctx.fillRect(0,0,canv.width,canv.height);
 
        ctx.fillStyle="lime"; // Color on the "Snake".
@@ -49,8 +49,8 @@
 
        if (ax==px && ay==py) {
                 tail++; // When Snake hits red dot. Add dot to Snake's Tail.
-                ax=Math.floor(Math.random()*tc); // Make "red dot" apear RNG on "x-axis".
-                ay=Math.floor(Math.random()*tc); // Make "red dot" apear RNG on "y-axis".
+                ax=Math.floor(Math.random()*tc); // Make "red dot" apear RNG on "x-axis".   // if either is removed = Dot will only spawn on the line its currently at
+                ay=Math.floor(Math.random()*tc); // Make "red dot" apear RNG on "y-axis".   // wich is either horizontal or vertical
             }
       
        ctx.fillStyle="red"; //Color on the "Dot".
@@ -58,7 +58,7 @@
     }
     function keyPush(evt) { // Key Event!
         switch(evt.keyCode) { // Value of Arrows and Space!
-            case 32: // Value for Space. Makes Snake Stop in its place.
+            case 32: // Value for Space. Makes Snake Stop in its place. "Possible to make a hard maze game with this"
                 xv=0;yv=0 // Stop at X and Y Axis. Possible to use for "moving game or something"
                 break;
             case 37: // Value for Left
