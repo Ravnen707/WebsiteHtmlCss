@@ -15,11 +15,10 @@
         ax=ay=15; // Start position of the dot
         xv=yv=0; // If removed games gone. Interesting results if number is changed from 0.
         trail=[]; // If removed red dot and Snake gone.
-        tail = 5; // Unsure of purpose if removed.!!!!!!!
 
-    function game() {
-       px+=xv; // Snake can't move if removed
-       py+=yv; // Snake can't move if removed
+        function game() {
+       px+=xv; // If removed the snake is no longer able to go horizontal.
+       py+=yv; // if removed the snake is no longer able to go vertical.
        if(px<0) { // Borders: If snake hits right it come from left
            px= tc-1; // if hit top it come from below
        }             // and so on.
@@ -38,8 +37,8 @@
        ctx.fillStyle="lime"; // Color on the "Snake".
        for(var i=0; i<trail.length;i++) {
             ctx.fillRect(trail[i].x*gs,trail[i].y*gs,gs-2,gs-2);
-            if (trail[i].x==px && trail[i].y==py) {
-                tail = 5; //39+40 if snake hits itself make snake 5 long again.
+            if (trail[i].x==px && trail[i].y==py) {//39+40 if snake hits itself make snake 5 long again.
+                tail = 5; //Length of the snake from start.
             }
        }
        trail.push({x:px,y:py});
