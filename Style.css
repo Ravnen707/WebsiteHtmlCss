@@ -42,11 +42,6 @@ ul {
     background-color: #04AA6D; /* Hovering color of the menu-bar */
   }
 
-  button.btnme {
-      position: absolute;
-      right: 0px;
-      bottom: 200px;
-  }
 
   /* Image gallery */ 
   div.gallery {
@@ -73,45 +68,44 @@ ul {
 
 
 
-    /* Second page */
+    /* WebGames page */
 
     h1.header02 {
         text-align:center;
         color: black;
         border-style: outset;   
      }
-button.btnmain{
-    position: absolute;
-    left: 0px;
-    bottom: 200px;
-   }
-   button.btnpage23{
-       position: absolute;
-       right: 0px;
-       bottom: 200px;
-   }
-   #formatBlock{
-    position: absolute;
-    left: 1010px;
-    bottom: 35%;
-   
+   #formatBlockGame{
+display: flex;
+    right: 40px;
+    top: 45%;   
+    width: 45%;
        border-style: solid;
        border-width: thick;
        border-color: gray; 
-       width: 45%;
-       float: left;
+       float: right;
    }
-   #formatBlocktest{
-    position: absolute;
+   #formatBlockGame2{
+display: flex;
     left: 40px;
-    bottom: 35%;
-   
+      width: 45%;
        border-style: solid;
        border-width: thick;
        border-color: gray; 
-       width: 45%;
        float: left;
    }
+   /*
+   .containerGame {
+    display: flex;
+    float: left;
+    margin-left: 22%;
+ }
+ .containerGame2 {
+  display: flex;
+  float: right;
+  margin-right: 22%;
+}
+*/
 #lastcol{
     margin-bottom: 2.5%;
 }
@@ -138,110 +132,54 @@ table {
         color: black;
         border-style: outset;   
      }
-   button.btnpage32{
-    position: absolute;
-       left: 0px;
-       bottom: 200px;
-   }
-   button.btnpage34{
-       position: absolute;
-       right: 0px;
-       bottom: 200px;
-   }
-   #formatBlock3{
-    position: absolute;
-    left: 25%;
-    bottom:  25%;
-   
+   #formatBlockMusic{
+    position: relative;
+    left: 5%;
+    margin-top: 1%;   
        border-style: solid;
        border-width: thick;
        border-color: gray; 
-       width: 45%;
+       width: 85%;
        float: left;
-   } 
-    /* rotating picture */ 
-    .flip-card {
-        background-color: transparent;
-        width: 300px;
-        height: 300px;
-        perspective: 1000px;
-        float: left;
-        margin-left: 2%;
-      }
-   
 
-      .flip-card-inner {
-        position: relative;
-        width: 100%;
-        height: 100%;
-        text-align: center;
-        transition: transform 0.6s;
-        transform-style: preserve-3d;
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-      }
-      .flip-card:hover .flip-card-inner {
-        transform: rotateY(180deg);
-      }
-      .flip-card-front, .flip-card-back {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
-      }
-      .flip-card-front {
-        background-color: #bbb;
-        color: black;
-      }
-      .flip-card-back {
-        background-color:black;
-        color: white;
-        transform: rotateY(180deg);
-      }
-
-
+    }
+    .containerM {
+      display: flex;
+      float: left;
+      margin-left: 22%;
+   }
  
     /* Fourth Page */ 
     h1.header4 {
         text-align:center;
         color: black;
-        border-style: outset;   
+        border-style: outset;  
+        right: 3px; 
      }
-   button.btnpage43{
-    position: absolute;
-       left: 0px;
-       bottom: 200px;
-   }  
-    button.btnpage433{
-    position: absolute;
-       right: 0px;
-       bottom: 200px;
-   }
-   #formatBlockAM3{
-    position: absolute;
-    left: 25%;
-    bottom:  26%;
-   
-       border-style: solid;
-       border-width: thick;
-       border-color: gray; 
-       width: 45%;
-       height: 18%;
-       float: left;
-   } 
+     #formatBlockAM{
+      position: relative;
+      left: 5%;
+      margin-top: 1%;   
+         border-style: solid;
+         border-width: thick;
+         border-color: gray; 
+         width: 50%;
+         float: left;
+  
+      }
+      .containerAM {
+        display: flex;
+        float: left;
+        margin-left: 22%;
+     }
 
 
-        /* Last page about myself */ 
+        /* fith page "ME" */ 
     h1.header5 {
         text-align:center;
         color: black;
         border-style: outset;   
      }
-   button.btnpageme {
-    position: absolute;
-    left: 0px;
-    bottom: 200px;
-   }
    .mystyle {
     width: 100%;
     padding: 50px 0;
