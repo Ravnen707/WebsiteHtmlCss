@@ -60,17 +60,17 @@
             case 32: // Value for Space. Makes Snake Stop in its place. "Possible to make a hard maze game with this"
                 xv=0;yv=0 // Stop at X and Y Axis. Possible to use for "moving game or something"
                 break;
-            case 37: // Value for Left
+            case 65: // Value for A "Left"
                 xv=-1;yv=0; // makes it go -1 of X-axis which is Left.
                 break;
-                case 38: // Value for Up
+                case 87: // Value for W "Up"
                 console.log("px"+px)
                 xv=0;yv=-1; // makes it go -1 of Y-axis which is Up.
                 break;
-            case 39: // Value for Right
+            case 68: // Value for D "Right"
                 xv=1;yv=0; // makes it go 1 of Y-axis which is Right.
                 break;
-            case 40: // Value for Down
+            case 83: // Value for S "Down"
             console.log("py"+py)
                 xv=0;yv=1; // makes it go 1 of Y-axis which is Down.
                 break;
