@@ -94,18 +94,7 @@ display: flex;
        border-color: gray; 
        float: left;
    }
-   /*
-   .containerGame {
-    display: flex;
-    float: left;
-    margin-left: 22%;
- }
- .containerGame2 {
-  display: flex;
-  float: right;
-  margin-right: 22%;
-}
-*/
+
 #lastcol{
     margin-bottom: 2.5%;
 }
@@ -215,8 +204,6 @@ table {
     background-color: lightblue;
     margin-top: 1.5%;
   }
-
-
 
   /* Snake Game HTML CSS */ 
 
