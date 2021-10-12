@@ -98,22 +98,7 @@ display: flex;
 #lastcol{
     margin-bottom: 2.5%;
 }
-/* page 2 Tabel */
-table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-  }
-  
-  td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-  }
-  
-  tr:nth-child(even) {
-    background-color: #dddddd;
-  }
+
 
     /* Third Page */
     h1.header3 {
