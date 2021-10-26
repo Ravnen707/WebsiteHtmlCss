@@ -1,0 +1,36 @@
+h1.headerAPI {
+    text-align:center;
+    color: black;
+    border-style: outset;   
+ }
+ html {
+    background: #3a1838;
+    background-image: radial-gradient(100% 30% ellipse at center top, #e74f4f 0%, rgba(0, 0, 0, 0) 100%), radial-gradient(100% 50% ellipse at center bottom, #7c3333 0%, #2a3c47 100%);
+    background-attachment: fixed;
+    color: #00ff22;
+  }
+
+  .btn {
+position: absolute;
+left: 1%;
+bottom: 70%;
+width: 90px;
+height: 60px;
+  }
+.testtest {
+position: absolute;
+left: 25%;
+}
+.btn2 {
+    position: absolute;
+    left: 1%;
+    bottom: 63%;
+    width: 90px;
+    height: 60px;
+      }
+
+.testtest2{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
