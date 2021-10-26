@@ -1,0 +1,12 @@
+html {
+    background: #3a1838;
+    background-image: radial-gradient(100% 30% ellipse at center top, #e74f4f 0%, rgba(0, 0, 0, 0) 100%), radial-gradient(100% 50% ellipse at center bottom, #7c3333 0%, #2a3c47 100%);
+    background-attachment: fixed;
+    color: #00d9ff;
+  }
+  .headerSnake {
+      color: rgb(0, 0, 0);
+      text-align: center;
+      border-style: outset;
+      border-color: lightgray;
+  }
