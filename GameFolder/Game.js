@@ -8,7 +8,7 @@
         canv=document.getElementById("move"); //Converses with the id of the canvas so the game is made inside its borders.
         ctx=canv.getContext("2d") // Makes the game seen in 2d. Anything else not possible in a browser with this game atm. 
         document.addEventListener("keydown",keyPush); // need to make is possible to moves by keypush "Arrows"
-        setInterval(game,1000/15); // Start up time of game as in speed of the game "10/15 = Snake goes BRRRRRRR"
+        setInterval(game,1000/1500); // Start up time of game as in speed of the game "10/15 = Snake goes BRRRRRRR"
     }
         px=py=10; // Start position of the snake
         gs=tc=20; // Size of "invisible" borders which at "20" is alined with the border of width and height.
