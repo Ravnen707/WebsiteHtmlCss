@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+        <title>idlegame for now</title>
+        <link rel="stylesheet" href="ClickIdle.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="ClickIdle.js" ></script>
+</head>
+
+<body>
+    <div class="content"> 
+        <div class="menus">
+            <div class="main">
+            <button class="btn1" id="chop"> Wood</button>
+            <button class="btn1" id="mineStone">Stone</button>
+            <button class="btn2" id="visit"> marketplace</button>
+            </div>
+
+            <div class="marketplace">
+                <div class="sellButtons">
+                    <button class="SellAll" id="sellAll">sell [All].</button>
+                </div>
+                    <div class="upgrades">
+                        <button id="autoChopper">Buy [1] Auto Chopper ($100)</button>
+                        <button id="autoMiner">Buy [1] Autominer ($100)</button>
+                </div>
+                     <div class="items">
+                        <button id="buyPickaxe">Buy [1] Pickaxe ($50)</button>
+                </div>
+        <button id="return">Return</button>
+                 </div>
+
+        </div>
+        <div class="inventory"> 
+            <p id="gold"> <span id="updateGold"></span></p>
+            <p id="logs"> you now own 0 logs. </p>
+            <p id="pickaxes"></p>    
+            <p id="stone"></p>     
+        </div>
+    
+    </div>
+    <button class="cookiesave2" id="deletecookie" onclick="coockiegone()">Click for gold delete from cookies, bye bye progress.</button>
+    <button class="cookiesave" id="save" onclick="savecookie()"> Click for gold save, everything else is bye bye.</button>
+
+
+</body>

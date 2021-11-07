@@ -1,0 +1,35 @@
+        if(logs > 1) {
+            $("#sell1").css("display", "block");
+        }else {
+            $("#sell1").css("display", "none");
+        }    
+        if(logs > 10) {
+            $("#sell10").css("display", "block");
+        }else {
+            $("#sell10").css("display", "none");
+        }
+
+            $("#sell1").click(function(){
+        logs--;
+        stone--;
+        gold += logPrice;
+        gold += stonePlus;
+        changeInventory();
+        changeMarket();
+    });
+    $("#sell10").click(function(){
+        logs-=10;
+        stone -=10;
+        gold += logPrice * 10;
+        gold += stonePlus *10;
+        changeInventory();
+        changeMarket();
+    });
+
+                        <button id="sell1">sell [1] Item.</button> -- HTml --
+                    <button id="sell10">sell [10] Items.</button>  -- HTml --
+
+        ---------------------- ^option for market removed, saved if implented later^ ----------------------
+
+
+

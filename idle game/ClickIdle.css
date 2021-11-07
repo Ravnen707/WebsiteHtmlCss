@@ -1,0 +1,92 @@
+body{
+    background-image: url(cba03aaae98293467501cb4c3696716a.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+
+.inventory {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.marketplace {
+    display: none;
+}
+.sellButtons{
+    display:grid;
+    grid-template-columns: repeat(3, 80px);
+    margin-bottom: 10px;
+}
+
+.upgrades, .items button{
+    display: grid;
+    grid-template-columns: repeat(1, 96px);
+    margin-bottom: 10px;
+}
+
+.btn1{
+    background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+    border-radius: 50%;
+    border: 15px;
+}
+.btn3{
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+      border-radius: 50%;
+      border: 15px;
+}
+
+.SellAll {
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+      border-radius: 50%;
+      border: 15px;
+}
+
+.btn2{
+position: fixed;
+left: 1%;
+top: 25%;
+}
+
+.cookiesave{
+    position: fixed;
+    left: 80%;
+    top: 5%;
+    margin-right: 5%;
+
+}
+.cookiesave2{
+    position: fixed;
+    left: 80%;
+    top: 12%;
+    margin-right: 5%;
+    margin-top: 1%;
+}
