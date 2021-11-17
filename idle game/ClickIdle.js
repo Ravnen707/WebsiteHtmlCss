@@ -1,16 +1,25 @@
 $(document).ready(function(){
     let logs = 0;// change logs later for own style of game
     let stone = 0;
+
     let pickaxes = 0;
-    let gold = parseInt(document.cookie);
+    let pickaxePrice = 50;
+
     let logPlus = 1;
     let stonePlus = 1;
+
     let autoLogPlus = 0;
     let autoStonePlus =0;
+
     let autoChopperPrice = 100;
     let autoMinerPrice = 100;
-    let pickaxePrice = 50;
+
     let logPrice = 1;
+    let stonePrice = 1;
+
+    let gold = parseInt(document.cookie);
+    let goldValue = 0;
+
     let menu;
 
 
@@ -45,7 +54,7 @@ $(document).ready(function(){
 
     $("#sellAll").click(function(){
         gold += logPrice * logs;
-        gold += stonePlus * stone;
+        gold += stonePrice * stone;
         logs = 0;
         stone = 0;
         changeInventory();
@@ -144,6 +153,7 @@ $(document).ready(function(){
         $("." + menu).css("display", "block");
         return menu;
     }
+    
 
 });
 
@@ -154,12 +164,12 @@ function savecookie(){
     let value = document.getElementById("gold").innerHTML;
     let newvalue = value.replace(/[^0-9]/g,'');
  document.cookie = newvalue;
-    alert("Cookies saved! / Gold progess has been saved!"); // show all cookies
+    alert("Cookies saved! / gold progess has been saved!"); // show all cookies
     
 };
 
 function coockiegone() {
 document.cookie = 0;
-    alert("Saved gold has been removed!");
+    alert("Saved goldValue has been removed!");
 };
 

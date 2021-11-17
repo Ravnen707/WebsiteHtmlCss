@@ -4,6 +4,7 @@ body{
     background-attachment: fixed;
     background-position: center;
 
+
 }
 
 .inventory {
@@ -79,14 +80,14 @@ top: 25%;
 .cookiesave{
     position: fixed;
     left: 80%;
-    top: 5%;
+    top: 10%;
     margin-right: 5%;
 
 }
 .cookiesave2{
     position: fixed;
     left: 80%;
-    top: 12%;
+    top: 17%;
     margin-right: 5%;
     margin-top: 1%;
 }
