@@ -1,28 +1,35 @@
 # WebsiteHtmlCss
 
-Aflever en hjemmeside om dig selv. Der stilles følgende krav:
+A school project focused on building a personal website using **HTML, CSS, and JavaScript**.
 
-- Der skal laves 3 html-sider: om mig selv (index.html), fritidsinteresser (fritid.html) og mærkesager (causes.html).
-- Siderne skal linke til hinanden (brug fx anchor tag og nav tag).
-- Der skal være følgende elementer på siderne: billeder, lister (ordered list og unordered list), en tabel .
+## Project Overview
 
+The website was developed as part of a school assignment to practice basic web development, page structure, styling, and navigation.
 
-### Ny del
+The project consists of three interconnected HTML pages:
 
-- Tilføjet et JavaScript spil "SnakeGame" og sat det sammen med hjemmesiden.
+- **index.html** – About Me
+- **fritid.html** – Hobbies and Interests
+- **causes.html** – Causes and Issues I Care About
 
+## Requirements
 
+The original assignment included the following requirements:
 
-# In English
+- Create three HTML pages with navigation between them.
+- Use HTML elements such as images, ordered lists, unordered lists, and tables.
+- Apply CSS to style the website.
 
-Turn in a website about yourself. Which have to live up to these requirements.
+## Additional Features
 
-- There have to be 3 HTML pages: About yourself (index.html), Freetime (Freetime.html) and Brand cases(causes.html(used google translate, dont know the right translation))
-- The pages have to link to each other.(Example use anchor tag and nav tag).
-- There have to be the follow elements on the pages: Pictures, lists(ul and ol), and a tabel.
+The project was later expanded with a **Snake Game** developed in JavaScript and integrated into the website.
 
+## Technologies Used
 
+- **HTML5** – Page structure and content
+- **CSS3** – Styling and layout
+- **JavaScript** – Snake Game functionality
 
-### New part
+## About
 
-- Added a JavaScript game "SnakeGame" and intergrated it into the website.
+This project was created for educational purposes to gain practical experience with fundamental web development technologies.
